@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:47
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view res/layout/pay_main.xml #generated:15
+-keep class com.qianhuan.yxgsd.holagames.ExternalFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.qianhuan.yxgsd.holagames.H5PayDemoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.qianhuan.yxgsd.holagames.PayDemoActivity { <init>(...); }
+
+# onClick res/layout/pay_external.xml #generated:92
+-keepclassmembers class * { *** h5Pay(...); }
+
+# onClick res/layout/pay_external.xml #generated:83
+-keepclassmembers class * { *** pay(...); }
+
